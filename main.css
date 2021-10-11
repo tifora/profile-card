@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  .profile-card {width: 600px; max-width: calc(100vw - 10px);}
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://i.imgur.com/IWSLKww.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-image: url('https://i.imgur.com/IWSLKww.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  .head, .links {text-align: center;}
+  
+  .head, .content {width: 90%; margin: 0 auto;}
+  
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 1px;
+    background-color: #666;
+  }
+  
+  ul {list-style-type: none;}
+  
+  li {display: inline;}
+  
+  .head, .about {margin-bottom: 5%;}
+  
+  .content {
+  padding: 5% 5%;
+  text-align: justify;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+  }
+  
+  .profile-card {
+    background-color: hsla(0, 0%, 100%, .3);
+    border-radius: 20px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  a {
+    padding: 20px 20px;
+  }
+  
+  .name-headline {
+    text-align: center;
+  }
+  
+  h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding: 5px;
+   font-size: 30px;
+  }
+  
+  h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  }
+  
+  p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 20px;
+  }
+  
+  #profile-image {
+  position: relative;
+  float: left;
+  margin-top: 10px;
+  }
+  
+  /* unvisited link */
+  a:link {
+  color: blue;
+  }
+  
+  /* visited link */
+  a:visited {
+  color: purple;
+  }
+  
+  /* mouse over link */
+  a:hover {
+  color: orange;
+  }
+  
+  
+  @media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  #profile-image {
+    width: 100%;
+    }
