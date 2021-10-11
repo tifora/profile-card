@@ -12,9 +12,9 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('https://i.imgur.com/IWSLKww.jpg') no-repeat center center fixed;
+    background: url('assets/background_6.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-image: url('https://i.imgur.com/IWSLKww.jpg');
+    background-image: url('assets/background_6.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -100,9 +100,9 @@
   color: orange;
   }
   
-  
   @media only screen and (max-width: 620px) {
   /* For mobile phones: */
   #profile-image {
     width: 100%;
-    }
+  }
+  }
